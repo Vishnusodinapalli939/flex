@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/0454434f54.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: whitesmoke;
+        z-index: -1;
+      }
+      .md {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 25px;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+        z-index: 1;
+      }
+      .main {
+        width: 400px;
+        height: 200px;
+        background-color: #ffffff;
+        z-index: 2;
+        box-shadow: 0 0 10px;
+        /* flex-wrap: wrap; */
+        box-sizing: border-box;
+      }
+      .child {
+        border: 1px solid black;
+        width: 5vw;
+        height: 10vh;
+        margin: 10px;
+      }
+      img {
+        width: 5vw;
+        height: 10vh;
+      }
+      .text {
+        position: relative;
+        top: -80px;
+        left: 100px;
+        /* text-wrap: wrap; */
+      }
+      i {
+        color: green;
+      }
+      .footer {
+        padding: 10px;
+        position: relative;
+        top: -70px;
+        /* text-wrap: balance;  */
+      }
+      .view {
+        position: relative;
+        left: 180px;
+      }
+      .para {
+        position: relative;
+        top: -50px;
+        /* text-wrap: wrap;  */
+      }
+      @media screen and (min-width: 200px) and (max-width: 450px) {
+        .view {
+          position: relative;
+          left: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="md">
+      <div class="main">
+        <div class="child"><img src="./flex images/stripe.png" /></div>
+        <span class="text">
+          Stripe<br />Payment Services
+          <br />
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <div class="para">
+          <h4>
+            Get more content on your users with stripe data inside our platform
+          </h4>
+        </div>
+        <div class="footer">
+          Installed 172 times<a href="#" class="view">view &gt;</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="child"><img src="./flex images/mailchimp.png" /></div>
+        <div class="text">
+          Mailchimp<br />Project management
+          <br />
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="para">
+          <h4>
+            Capture and sync subscribers from your mailchimp platform to ours
+            with ease.
+          </h4>
+        </div>
+        <div class="footer">
+          Installed 1234 times<a href="" # class="view">view &gt;</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="child"><img src="./flex images/dropbox.png" /></div>
+        <div class="text">
+          Dropbox<br />File Management
+          <br />
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="para">
+          <h4>
+            Use dropbox to sync your photos to our platform and share it with
+            others.
+          </h4>
+        </div>
+        <div class="footer">
+          Installed 1234 times<a href="#" class="view">view &gt;</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="child"><img src="./flex images/shopify.png" /></div>
+        <div class="text">
+          Shopify<br />Ecommerce
+          <br />
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="para">
+          <h4>
+            Sell you items with ease with having any website with our free
+            platform
+          </h4>
+        </div>
+        <div class="footer">
+          Installed 1234 times<a href="#" class="view">view &gt;</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="child"><img src="./flex images/stripe.png" /></div>
+        <div class="text">
+          Atlassian<br />Project management
+          <br />
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="para">
+          <h4>
+            Developing products for developers,project managers ad architects.
+          </h4>
+        </div>
+        <div class="footer">
+          Installed 345 times<a href="#" class="view">view &gt;</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="child"><img src="./flex images/salesforce.png" /></div>
+        <div class="text">
+          Salesforce<br />Project management
+          <br />
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="para">
+          <h4>
+            Developing products for developers,project managers and architects.
+          </h4>
+        </div>
+        <div class="footer">
+          Installed 345 times<a href="#" class="view">view &gt;</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
